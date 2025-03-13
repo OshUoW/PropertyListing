@@ -1,0 +1,513 @@
+/* Global Styles */
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;    
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+  /* background-color:  #131110; */
+  background: linear-gradient(-45deg, #1d36a5, #3b5cf0, #0a1b65, #0a1b65);
+    background-color: #0a1b65;
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    padding-left: 20px;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.property_name {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: left;
+  margin: 10px 0;
+}
+
+.name {
+  display: flex;
+  color: #1d36a5;
+  align-items: left;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.location {
+  display: flex;
+  align-items: left;
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.location i {
+  margin-right: 5px;
+}
+
+.search {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px; /* Ensures space between filters and the search button */
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #478e13;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #3c7310;
+}
+
+
+
+
+/* Container Styles */
+.properties {
+  margin: 0;
+}
+
+
+.flex { 
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.flex p {
+  display: flex;
+  font-size: 1rem;
+  /* align-items: left; */
+}
+
+.flex i {
+  margin-right: 5px;
+}
+
+.price {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-items: left;
+}
+
+
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.favorites-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.favorites-header {
+  font-size: 1.5rem; /* Larger font size for the header */
+  font-weight: bold; /* Bold font for emphasis */
+  text-align: center; /* Center-align the header */
+  margin: 10px 0; /* Add some margin for spacing */
+  color: #333; /* Dark color for visibility */
+}
+.search-fields input[type="date"] {
+  margin-left: 20px; /* Add left margin to the date input */
+}
+
+/* Card Styles */
+.propboxes {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  overflow-x: hidden;
+  border-radius: 10px;
+  transition: transform 0.5s;
+  position: relative;
+}
+
+.favorite-card {
+  width: 100%;
+}
+
+.propboxes.dragging {
+  opacity: 0.5; /* Optional: Add visual feedback for dragging */
+}
+
+.propboxes:hover {
+  transform: scale(1.05);
+}
+
+.thumb {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-color: #eaeaea; /* Placeholder color */
+}
+
+.property_name, .name, .location, .flex, .price {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0a1b65;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #1d36a5;
+}
+
+.save {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+  z-index: 1;
+  color: #fff;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d3d3d3;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.favorite-btn.favorited {
+  color: red;
+}
+
+.favorite-btn:hover {
+  color: darkred;
+}
+
+.remove-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.remove-btn:hover {
+  background-color: darkred;
+}
+
+/* Search Styles */
+.search {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.search-fields input[type="text"],
+.search-fields input[type="number"],
+.search-fields input[type="date"],
+.search-fields button,
+.search-fields select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-fields button {
+  background-color: #478e13;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-fields button:hover {
+  background-color: #3c7310;
+}
+
+
+
+/* Favorites Styles */
+.favorites-list {
+  width: 100%;
+  max-width: 300px;
+  max-height: 600px; /* Set a fixed max height */
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; /* Make it scrollable */
+}
+
+.favorites-list h3 {
+  margin-top: 0;
+}
+
+.favorites-list .box-container {
+  flex-direction: column;
+  display: flex;
+}
+
+.favorites-list .propboxes {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.favorites-toggle {
+  text-align: right;
+  padding: 10px;
+}
+
+.favorites-toggle .favorites-button {
+  z-index: 1000;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.favorites-toggle .favorites-button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+/* Popup Styles */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.popup-overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80%;
+  overflow-y: auto;
+  position: relative; /* Add position relative to position the close button */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .search-fields {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-fields input[type="text"],
+  .search-fields input[type="number"],
+  .search-fields input[type="date"],
+  .search-fields button,
+  .search-fields select {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px 0;
+  }
+
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .favorites-list {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 20px;
+    border-left: none;
+  }
+
+  .favorites-toggle .favorites-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+}
+
+/* Adjust the box-container grid */
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Change from 3 to 2 columns */
+  gap: 20px;
+  
+}
+
+/* Styles for favorites section */
+.favorites-list {
+ 
+  position: fixed; /* Fix the position to the top-right corner */
+  right: 10px; /* Right margin */
+  top: 80px; /* Adjust based on Navbar height */
+  width: 250px; /* Adjust width as needed */
+  height: calc(100% - 100px); /* Adjust height based on the viewport, minus top and possible bottom margins */
+  background: white;
+  box-shadow: -1px 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: block; /* Always show the favorite section */
+  overflow-y: auto; /* Make scrollable */
+  border-radius: 10px; /* Optional: rounded corners */
+  z-index: 100; /* Ensure it's above other content */
+}
+
+.favorites-list.show {
+  display: block; /* Show on toggle */
+}
+
+.favorite-card {
+  margin-bottom: 20px; /* Space between cards */
+}
+
+/* When showing properties, add a right margin to prevent overlap */
+.content-container {
+  margin-right: 270px; /* Adjust this value to match the width of the favorite section plus some space */
+}
+.favorite-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px; /* Space between favorite cards */
+  background: #f9f9f9;
+  border-radius: 8px; /* Optional: Rounded corners for aesthetic */
+}
+
+.favorite-card .thumb {
+  width: 60px; /* Smaller width for favorites preview */
+  height: 60px; /* Fixed height */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Circular thumbnail */
+  margin-right: 10px;
+}
+
+.favorite-card .property-details {
+  flex-grow: 1; /* Take available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite-card .price {
+  font-weight: bold;
+  color: #333;
+}
+
+
+@media (max-width: 480px) {
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .propboxes {
+    padding: 0.5rem;
+  }
+
+  .btn {
+    padding: 5px;
+  }
+
+  .popup-content {
+    width: 95%;
+    height: 90%;
+  }
+
+}
+
+

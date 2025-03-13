@@ -1,0 +1,207 @@
+{
+  "properties": [
+    {
+      "name": "Club House",
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Welcome to Club House, a charming three-bedroom semi-detached family home located in the sought-after area of Petts Wood. This attractive property is situated within 0.5 miles of Petts Wood station, providing fast trains to London, and is within easy walking distance of local shops, schools, bus routes, and the scenic National Trust woodland. Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior Club House is a superb family home that combines modern living with convenience and charm. With its spacious interior, excellent location, and additional features, it is perfect for those seeking a comfortable and stylish residence in Petts Wood. Don’t miss the opportunity to make this your dream home. ",
+      "location": "Petts Wood Road, Petts Wood.",
+      "picture": "../images/prop1.jpg",
+      "floorPlan": "../images/floorPlan1.jpg",
+      "postalCode": 25,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%20BR5%201JR%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop1.html",
+      "added": {
+        "month": "July",
+        "day": 9,
+        "year": 2024
+      },
+      "gallery": [
+        "../images/gallery1.webp",
+        "../images/gallery2.jpg",
+        "../images/gallery3.jpg",
+        "../images/gallery4.jpg",
+        "../images/gallery5.jpg",
+        "../images/gallery6.jpg",
+        "../images/gallery7.webp"
+      ]
+    },
+    {
+      "name": "Modern Apartment",
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 400000,
+      "tenure": "Freehold",
+      "description": "Welcome to Modern Apartment, a beautifully presented two-bedroom, two-bathroom garden flat located on Crofton Road, Orpington BR6. This stunning property is offered for £400,000 with freehold tenure. Presented in excellent decorative order throughout, the apartment features a modern fitted kitchen open plan to the living room, complete with solid wooden floors and integrated appliances, including a dishwasher and washing machine. The spacious living area benefits from bi-folding doors leading to a secluded private courtyard garden. Both bedrooms are generously sized doubles, with the family bathroom boasting a matching three-piece suite and a shower attachment over the bath. Additionally, there is a separate wet room for added convenience. The apartment is finished with walnut doors throughout and is wired for Sky TV/aerial points in the living room, kitchen, and both bedrooms.Despite being only five years old, this property is still under a 10-year building guarantee, ensuring peace of mind for the future. Modern Apartment is a superb home that perfectly combines contemporary living with comfort and style. Don't miss the chance to make this exquisite property your own.",
+      "location": "Crofton Road Orpington BR6",
+      "picture": "../images/prop2.jpg",
+      "floorPlan": "../images/floorPlan2.png",
+      "postalCode": 55,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sCrofton%20Rd%2C%20Orpington%20BR6%208ER%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop2.html",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      },
+      "gallery": [
+        "../images/gallery2_1.jpg",
+        "../images/gallery2_2.jpeg",
+        "../images/gallery2_3.jpg",
+        "../images/gallery2_4.webp",
+        "../images/gallery3_5.jpeg",
+        "../images/gallery2_6.jpg",
+        "../images/gallery3_7.jpeg"
+      ]
+    },
+    {
+      "name": "Family Home",
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 820000,
+      "tenure": "Freehold",
+      "description": "Welcome to Family Home on Green Street, Greenfield—a spacious and inviting four-bedroom residence priced at £820,000 with freehold tenure. This charming house features a modern kitchen, two bathrooms, and a delightful backyard, perfect for outdoor gatherings and relaxation. Nestled in a tranquil suburban neighborhood close to schools, parks, and public transportation, Family Home offers both practicality and comfort. Whether enjoying family meals in the well-appointed kitchen or exploring nearby green spaces, this property provides an ideal setting for creating lasting memories. With its spacious layout and family-friendly amenities, Family Home is an excellent choice for those seeking a nurturing environment to raise children and embrace a fulfilling family life. Don't miss out on the opportunity to make Family Home your cherished retreat in Greenfield—a place where every corner exudes warmth and the promise of a happy family life.",
+      "location": "Green Street, Greenfield",
+      "picture": "../images/prop8.jpg",
+      "floorPlan": "../images/floorPlan3.jpeg",
+      "postalCode": 65,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sGreen%20St%2C%20Greenfield%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop3.html",
+      "added": {
+        "month": "November",
+        "day": 18,
+        "year": 2023
+      },
+      "gallery": [
+        "../images/gallery3_1.jpeg",
+        "../images/gallery3_2.jpeg",
+        "../images/gallery3_3.jpeg",
+        "../images/gallery3_4.jpeg",
+        "../images/gallery3_5.jpeg",
+        "../images/gallery3_6.jpeg",
+        "../images/gallery3_7.jpeg"
+      ]
+    },
+    {
+      "name": "City Apartment",
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 550000,
+      "tenure": "Leasehold",
+      "description": "Welcome to City Apartment on City Center Avenue, Urbanville—a modern and stylish two-bedroom flat available for £550,000 with leasehold tenure. Located in the vibrant heart of the city, this residence offers unparalleled convenience with its proximity to shopping centers, restaurants, and excellent public transit links, catering to a dynamic urban lifestyle. The apartment features an inviting open-plan living space that seamlessly integrates a contemporary kitchen equipped with modern appliances, perfect for both cooking and entertaining. Step out onto the private balcony to enjoy stunning views of the bustling cityscape, providing a peaceful retreat amidst the lively atmosphere. City Apartment is ideal for those seeking the perfect blend of modern convenience and metropolitan charm, whether enjoying the local amenities or relaxing in the comfort of stylish interiors. Don't miss out on the opportunity to make City Apartment your sophisticated urban retreat in Urbanville, where every corner reflects the vibrancy and excitement of city living.",
+      "location": "City Center Avenue, Urbanville",
+      "picture": "../images/prop4.jpg",
+      "floorPlan": "../images/floorPlan4.jpg",
+      "postalCode": 25,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sCity%20Center%20Avenue%2C%20Urbanville%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop4.html",
+      "added": {
+        "month": "December",
+        "day": 5,
+        "year": 2023
+      },
+      "gallery": [
+        "../images/gallery4_1.jpg",
+        "../images/gallery4_2.jpg",
+        "../images/gallery4_3.jpg",
+        "../images/gallery4_4.jpg",
+        "../images/gallery4_5.jpeg",
+        "../images/gallery4_6.jpg",
+        "../images/gallery4_7.jpg"
+      ]
+    },
+    {
+      "name": "Luxury Mansion",
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 820000,
+      "tenure": "Freehold",
+      "description": "Introducing Luxury Mansion on Mansion Lane, Prestige Estates—a prestigious five-bedroom house offered at £820,000 with freehold tenure. Nestled in an upscale neighborhood, this elegant residence features a spacious garden, ideal for outdoor activities and relaxation. The property showcases a gourmet kitchen equipped with modern appliances, perfect for culinary enthusiasts and entertaining guests. Multiple living areas provide ample space for family gatherings and leisure, while the master suite includes a luxurious bathroom, offering a private retreat within the home. Luxury Mansion is designed for those who appreciate sophisticated living and seek the ultimate in comfort and style. Whether enjoying the serene surroundings of the garden or the luxurious amenities within, this property promises a lifestyle of luxury and refinement in Prestige Estates. Don't miss the opportunity to make Luxury Mansion your distinguished home, where every detail reflects elegance and the promise of exquisite living.",
+      "location": "Mansion Lane, Prestige Estates",
+      "picture": "../images/prop5.jpg",
+      "floorPlan": "../images/floorPlan5.jpg",
+      "postalCode": 55,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sMansion%20Lane%2C%20Prestige%20Estates%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop5.html",
+      "added": {
+        "month": "January",
+        "day": 15,
+        "year": 2023
+      },
+      "gallery": [
+        "../images/gallery5_1.jpeg",
+        "../images/gallery5_2.jpeg",
+        "../images/gallery5_3.jpeg",
+        "../images/gallery5_4.jpeg",
+        "../images/gallery5_5.jpeg",
+        "../images/gallery5_6.jpeg",
+        "../images/gallery5_7.jpeg"
+      ]
+    },
+    {
+      "name": "Cosy Apartment",
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 380000,
+      "tenure": "Leasehold",
+      "description": "Welcome to Cosy Apartment on Fashion Street, Trendytown—a charming one-bedroom flat available for £380,000 with leasehold tenure. Nestled in a vibrant neighborhood known for its trendy cafes and boutiques, this residence offers a modern interior designed for comfort and style. The apartment features a cozy bedroom, perfect for relaxation after a day exploring the local scene. A stylish kitchen equipped with modern appliances enhances the living experience, ideal for preparing meals and entertaining guests. Step out onto the balcony to enjoy views overlooking the bustling cityscape, providing a serene retreat amidst the lively atmosphere. Cosy Apartment is ideal for individuals seeking a dynamic lifestyle in a prime urban location, combining convenience with contemporary living. Whether enjoying the local amenities or unwinding in the comfort of your stylish abode, this property offers a perfect blend of charm and practicality in Trendytown. Don't miss out on the opportunity to make Cosy Apartment your stylish urban retreat, where every corner reflects comfort and modernity.",
+      "location": "Fashion Street, Trendytown",
+      "picture": "../images/prop6.jpg",
+      "floorPlan": "../images/floorPlan6.jpg",
+      "postalCode": 65,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sFashion%20Street%2C%20Trendytown%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop6.html",
+      "added": {
+        "month": "February",
+        "day": 8,
+        "year": 2023
+      },
+      "gallery": [
+        "../images/gallery6_1.jpeg",
+        "../images/gallery6_2.jpeg",
+        "../images/gallery6_3.jpeg",
+        "../images/gallery6_4.jpeg",
+        "../images/gallery6_5.jpeg",
+        "../images/gallery6_6.jpeg",
+        "../images/gallery7.webp"
+      ]
+    },
+    {
+      "name": "Contemporary House",
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 890000,
+      "tenure": "Freehold",
+      "description": "Welcome to Contemporary House on Horizon Drive, Horizon Heights—a stunning four-bedroom residence offered at £890,000 with freehold tenure. This modern house boasts a sleek design and panoramic views, situated within a contemporary residential development that offers access to amenities and green spaces, perfect for families and individuals alike. The property features an inviting open-plan kitchen, ideal for both everyday living and entertaining guests, complemented by a private terrace that extends the living space outdoors. The master suite provides a luxurious retreat within the home, featuring ample space and privacy. Contemporary House is designed for those who appreciate modern aesthetics and seek a sophisticated lifestyle amidst a vibrant community. Whether enjoying the scenic views from the terrace or exploring the nearby amenities, this property offers a perfect blend of style, comfort, and convenience in Horizon Heights. Don't miss the opportunity to make Contemporary House your distinguished home, where every detail reflects contemporary elegance and the promise of luxurious living.",
+      "location": "Horizon Drive, Horizon Heights",
+      "picture": "../images/prop7.jpg",
+      "floorPlan": "../images/floorPlan7.jpeg",
+      "postalCode": 25,
+      "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.249902405!2d-0.38177992475022536!3d51.52855777370054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb2046ea4b3%3A0x942c8bb9d77e6f17!2sHorizon%20Drive%2C%20Horizon%20Heights%2C%20UK!5e0!3m2!1sen!2sus!4v1597713398411!5m2!1sen!2sus",
+      "url": "properties/prop7.html",
+      "added": {
+        "month": "March",
+        "day": 22,
+        "year": 2023
+      },
+      "gallery": [
+        "../images/gallery7_1.jpeg",
+        "../images/gallery7_2.jpeg",
+        "../images/gallery7_3.jpeg",
+        "../images/gallery7_4.jpeg",
+        "../images/gallery7_5.jpeg",
+        "../images/gallery7_6.jpeg",
+        "../images/gallery7.webp"
+      ]
+    }
+  ]
+}
